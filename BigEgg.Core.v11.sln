@@ -1,0 +1,209 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2CF4F311-2C16-45C9-9509-6EC775006AB8}"
+	ProjectSection(SolutionItems) = preProject
+		BigEgg.Core.vsmdi = BigEgg.Core.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{BB6E29FC-3E94-492C-82E2-1688207CF0C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skins", "Skins", "{56E8733C-E46A-4133-9D57-D054E8BE0BC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigEgg.Framework", "Framework\BigEgg.Framework\BigEgg.Framework.csproj", "{EE01D20C-0F89-4219-A615-E5566A73814E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigEgg.Framework.Test", "Framework\BigEgg.Framework.Test\BigEgg.Framework.Test.csproj", "{4ECBABE4-6EAB-47DB-9AD1-EAD9F6C655A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigEgg.UnitTesting", "BigEgg.UnitTesting\BigEgg.UnitTesting.csproj", "{20069404-1E1C-4F1A-87D7-3D5B111745C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigEgg.Presentation", "Framework\BigEgg.Presentation\BigEgg.Presentation.csproj", "{DFA186EB-7AA2-4D1C-8070-887700DF8DD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigEgg.Skins.BlackSkin", "Skins\BigEgg.Skins.BlackSkin\BigEgg.Skins.BlackSkin.csproj", "{CE4661CE-ECC6-4A10-9E3E-CFD1E9C01DFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigEgg.Framework.CodeSnippets", "Framework\BigEgg.Framework.CodeSnippets\BigEgg.Framework.CodeSnippets.csproj", "{CEB8E430-5709-4248-8E12-7ABC4924D5DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logging", "Logging", "{F080A2E3-3100-4F67-BD5D-DA5CB37E8B45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigEgg.Logging", "Logging\BigEgg.Logging\BigEgg.Logging.csproj", "{ABB6E42D-9093-4128-8574-B05062A14B27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigEgg.Logging.EmptyLogger", "Logging\BigEgg.Logging.EmptyLogger\BigEgg.Logging.EmptyLogger.csproj", "{131EB5F0-B1F1-4065-93F3-7360027AB113}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigEgg.Logging.TraceLogger", "Logging\BigEgg.Logging.TraceLogger\BigEgg.Logging.TraceLogger.csproj", "{86357D25-164B-4271-8438-5A9352EBFC8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigEgg.Skins.Future", "Skins\BigEgg.Skins.Future\BigEgg.Skins.Future.csproj", "{9D22D551-BF7D-43FC-9957-ACD65D1E6A50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigEgg.Framework.UnitTesting", "Framework\BigEgg.Framework.UnitTesting\BigEgg.Framework.UnitTesting.csproj", "{0CC7A8DA-A50B-405F-B14C-8B6BBAEA42CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigEgg.UnitTesting.Test", "BigEgg.UnitTesting.Test\BigEgg.UnitTesting.Test.csproj", "{1D4BF146-5C72-4D49-8D03-E8ED6CC2EC8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigEgg.Logging.TextLogger", "Logging\BigEgg.Logging.TextLogger\BigEgg.Logging.TextLogger.csproj", "{6FD73310-9702-4DE3-8722-C2E0736A7052}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigEgg.Logging.TextWithCacheLogger", "Logging\BigEgg.Logging.TextWithCacheLogger\BigEgg.Logging.TextWithCacheLogger.csproj", "{9EB27D02-510D-45B5-BDE1-24D58BEB8A86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigEgg.Logging.RtfLogger", "Logging\BigEgg.Logging.RTFLogger\BigEgg.Logging.RtfLogger.csproj", "{124D3829-5D87-46C5-81C8-47B04FF5797B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigEgg.Logging.RtfWithCacheLogger", "Logging\BigEgg.Logging.RTFWithCacheLogger\BigEgg.Logging.RtfWithCacheLogger.csproj", "{F77FE5C3-6D2F-4B50-A4D6-6134C2AD5954}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 17
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs12
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BigEgg.UnitTesting.Test\\BigEgg.UnitTesting.Test.csproj
+		SccProjectName1 = BigEgg.UnitTesting.Test
+		SccLocalPath1 = BigEgg.UnitTesting.Test
+		SccProjectUniqueName2 = BigEgg.UnitTesting\\BigEgg.UnitTesting.csproj
+		SccProjectName2 = BigEgg.UnitTesting
+		SccLocalPath2 = BigEgg.UnitTesting
+		SccProjectUniqueName3 = Framework\\BigEgg.Framework.CodeSnippets\\BigEgg.Framework.CodeSnippets.csproj
+		SccProjectTopLevelParentUniqueName3 = BigEgg.Core.v11.sln
+		SccProjectName3 = Framework/BigEgg.Framework.CodeSnippets
+		SccLocalPath3 = Framework\\BigEgg.Framework.CodeSnippets
+		SccProjectUniqueName4 = Framework\\BigEgg.Framework.Test\\BigEgg.Framework.Test.csproj
+		SccProjectTopLevelParentUniqueName4 = BigEgg.Core.v11.sln
+		SccProjectName4 = Framework/BigEgg.Framework.Test
+		SccLocalPath4 = Framework\\BigEgg.Framework.Test
+		SccProjectUniqueName5 = Framework\\BigEgg.Framework.UnitTesting\\BigEgg.Framework.UnitTesting.csproj
+		SccProjectTopLevelParentUniqueName5 = BigEgg.Core.v11.sln
+		SccProjectName5 = Framework/BigEgg.Framework.UnitTesting
+		SccLocalPath5 = Framework\\BigEgg.Framework.UnitTesting
+		SccProjectUniqueName6 = Framework\\BigEgg.Framework\\BigEgg.Framework.csproj
+		SccProjectTopLevelParentUniqueName6 = BigEgg.Core.v11.sln
+		SccProjectName6 = Framework/BigEgg.Framework
+		SccLocalPath6 = Framework\\BigEgg.Framework
+		SccProjectUniqueName7 = Framework\\BigEgg.Presentation\\BigEgg.Presentation.csproj
+		SccProjectTopLevelParentUniqueName7 = BigEgg.Core.v11.sln
+		SccProjectName7 = Framework/BigEgg.Presentation
+		SccLocalPath7 = Framework\\BigEgg.Presentation
+		SccProjectUniqueName8 = Logging\\BigEgg.Logging.EmptyLogger\\BigEgg.Logging.EmptyLogger.csproj
+		SccProjectTopLevelParentUniqueName8 = BigEgg.Core.v11.sln
+		SccProjectName8 = Logging/BigEgg.Logging.EmptyLogger
+		SccLocalPath8 = Logging\\BigEgg.Logging.EmptyLogger
+		SccProjectUniqueName9 = Logging\\BigEgg.Logging.RTFLogger\\BigEgg.Logging.RtfLogger.csproj
+		SccProjectTopLevelParentUniqueName9 = BigEgg.Core.v11.sln
+		SccProjectName9 = Logging/BigEgg.Logging.RTFLogger
+		SccLocalPath9 = Logging\\BigEgg.Logging.RTFLogger
+		SccProjectUniqueName10 = Logging\\BigEgg.Logging.RTFWithCacheLogger\\BigEgg.Logging.RtfWithCacheLogger.csproj
+		SccProjectTopLevelParentUniqueName10 = BigEgg.Core.v11.sln
+		SccProjectName10 = Logging/BigEgg.Logging.RTFWithCacheLogger
+		SccLocalPath10 = Logging\\BigEgg.Logging.RTFWithCacheLogger
+		SccProjectUniqueName11 = Logging\\BigEgg.Logging.TextLogger\\BigEgg.Logging.TextLogger.csproj
+		SccProjectTopLevelParentUniqueName11 = BigEgg.Core.v11.sln
+		SccProjectName11 = Logging/BigEgg.Logging.TextLogger
+		SccLocalPath11 = Logging\\BigEgg.Logging.TextLogger
+		SccProjectUniqueName12 = Logging\\BigEgg.Logging.TextWithCacheLogger\\BigEgg.Logging.TextWithCacheLogger.csproj
+		SccProjectTopLevelParentUniqueName12 = BigEgg.Core.v11.sln
+		SccProjectName12 = Logging/BigEgg.Logging.TextWithCacheLogger
+		SccLocalPath12 = Logging\\BigEgg.Logging.TextWithCacheLogger
+		SccProjectUniqueName13 = Logging\\BigEgg.Logging.TraceLogger\\BigEgg.Logging.TraceLogger.csproj
+		SccProjectTopLevelParentUniqueName13 = BigEgg.Core.v11.sln
+		SccProjectName13 = Logging/BigEgg.Logging.TraceLogger
+		SccLocalPath13 = Logging\\BigEgg.Logging.TraceLogger
+		SccProjectUniqueName14 = Logging\\BigEgg.Logging\\BigEgg.Logging.csproj
+		SccProjectTopLevelParentUniqueName14 = BigEgg.Core.v11.sln
+		SccProjectName14 = Logging/BigEgg.Logging
+		SccLocalPath14 = Logging\\BigEgg.Logging
+		SccProjectUniqueName15 = Skins\\BigEgg.Skins.BlackSkin\\BigEgg.Skins.BlackSkin.csproj
+		SccProjectTopLevelParentUniqueName15 = BigEgg.Core.v11.sln
+		SccProjectName15 = Skins/BigEgg.Skins.BlackSkin
+		SccLocalPath15 = Skins\\BigEgg.Skins.BlackSkin
+		SccProjectUniqueName16 = Skins\\BigEgg.Skins.Future\\BigEgg.Skins.Future.csproj
+		SccProjectTopLevelParentUniqueName16 = BigEgg.Core.v11.sln
+		SccProjectName16 = Skins/BigEgg.Skins.Future
+		SccLocalPath16 = Skins\\BigEgg.Skins.Future
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = BigEgg.Core.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE01D20C-0F89-4219-A615-E5566A73814E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE01D20C-0F89-4219-A615-E5566A73814E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE01D20C-0F89-4219-A615-E5566A73814E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE01D20C-0F89-4219-A615-E5566A73814E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ECBABE4-6EAB-47DB-9AD1-EAD9F6C655A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ECBABE4-6EAB-47DB-9AD1-EAD9F6C655A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ECBABE4-6EAB-47DB-9AD1-EAD9F6C655A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20069404-1E1C-4F1A-87D7-3D5B111745C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20069404-1E1C-4F1A-87D7-3D5B111745C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20069404-1E1C-4F1A-87D7-3D5B111745C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20069404-1E1C-4F1A-87D7-3D5B111745C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA186EB-7AA2-4D1C-8070-887700DF8DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA186EB-7AA2-4D1C-8070-887700DF8DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA186EB-7AA2-4D1C-8070-887700DF8DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA186EB-7AA2-4D1C-8070-887700DF8DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE4661CE-ECC6-4A10-9E3E-CFD1E9C01DFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE4661CE-ECC6-4A10-9E3E-CFD1E9C01DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE4661CE-ECC6-4A10-9E3E-CFD1E9C01DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE4661CE-ECC6-4A10-9E3E-CFD1E9C01DFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEB8E430-5709-4248-8E12-7ABC4924D5DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEB8E430-5709-4248-8E12-7ABC4924D5DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEB8E430-5709-4248-8E12-7ABC4924D5DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEB8E430-5709-4248-8E12-7ABC4924D5DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABB6E42D-9093-4128-8574-B05062A14B27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB6E42D-9093-4128-8574-B05062A14B27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB6E42D-9093-4128-8574-B05062A14B27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB6E42D-9093-4128-8574-B05062A14B27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{131EB5F0-B1F1-4065-93F3-7360027AB113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{131EB5F0-B1F1-4065-93F3-7360027AB113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{131EB5F0-B1F1-4065-93F3-7360027AB113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{131EB5F0-B1F1-4065-93F3-7360027AB113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86357D25-164B-4271-8438-5A9352EBFC8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86357D25-164B-4271-8438-5A9352EBFC8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86357D25-164B-4271-8438-5A9352EBFC8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86357D25-164B-4271-8438-5A9352EBFC8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D22D551-BF7D-43FC-9957-ACD65D1E6A50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D22D551-BF7D-43FC-9957-ACD65D1E6A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D22D551-BF7D-43FC-9957-ACD65D1E6A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D22D551-BF7D-43FC-9957-ACD65D1E6A50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CC7A8DA-A50B-405F-B14C-8B6BBAEA42CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC7A8DA-A50B-405F-B14C-8B6BBAEA42CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC7A8DA-A50B-405F-B14C-8B6BBAEA42CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC7A8DA-A50B-405F-B14C-8B6BBAEA42CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D4BF146-5C72-4D49-8D03-E8ED6CC2EC8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D4BF146-5C72-4D49-8D03-E8ED6CC2EC8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D4BF146-5C72-4D49-8D03-E8ED6CC2EC8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D4BF146-5C72-4D49-8D03-E8ED6CC2EC8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FD73310-9702-4DE3-8722-C2E0736A7052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD73310-9702-4DE3-8722-C2E0736A7052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD73310-9702-4DE3-8722-C2E0736A7052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD73310-9702-4DE3-8722-C2E0736A7052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EB27D02-510D-45B5-BDE1-24D58BEB8A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB27D02-510D-45B5-BDE1-24D58BEB8A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB27D02-510D-45B5-BDE1-24D58BEB8A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB27D02-510D-45B5-BDE1-24D58BEB8A86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{124D3829-5D87-46C5-81C8-47B04FF5797B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{124D3829-5D87-46C5-81C8-47B04FF5797B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{124D3829-5D87-46C5-81C8-47B04FF5797B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{124D3829-5D87-46C5-81C8-47B04FF5797B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F77FE5C3-6D2F-4B50-A4D6-6134C2AD5954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F77FE5C3-6D2F-4B50-A4D6-6134C2AD5954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F77FE5C3-6D2F-4B50-A4D6-6134C2AD5954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F77FE5C3-6D2F-4B50-A4D6-6134C2AD5954}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE01D20C-0F89-4219-A615-E5566A73814E} = {BB6E29FC-3E94-492C-82E2-1688207CF0C4}
+		{4ECBABE4-6EAB-47DB-9AD1-EAD9F6C655A0} = {BB6E29FC-3E94-492C-82E2-1688207CF0C4}
+		{DFA186EB-7AA2-4D1C-8070-887700DF8DD9} = {BB6E29FC-3E94-492C-82E2-1688207CF0C4}
+		{CEB8E430-5709-4248-8E12-7ABC4924D5DE} = {BB6E29FC-3E94-492C-82E2-1688207CF0C4}
+		{0CC7A8DA-A50B-405F-B14C-8B6BBAEA42CE} = {BB6E29FC-3E94-492C-82E2-1688207CF0C4}
+		{CE4661CE-ECC6-4A10-9E3E-CFD1E9C01DFE} = {56E8733C-E46A-4133-9D57-D054E8BE0BC3}
+		{9D22D551-BF7D-43FC-9957-ACD65D1E6A50} = {56E8733C-E46A-4133-9D57-D054E8BE0BC3}
+		{ABB6E42D-9093-4128-8574-B05062A14B27} = {F080A2E3-3100-4F67-BD5D-DA5CB37E8B45}
+		{131EB5F0-B1F1-4065-93F3-7360027AB113} = {F080A2E3-3100-4F67-BD5D-DA5CB37E8B45}
+		{86357D25-164B-4271-8438-5A9352EBFC8B} = {F080A2E3-3100-4F67-BD5D-DA5CB37E8B45}
+		{6FD73310-9702-4DE3-8722-C2E0736A7052} = {F080A2E3-3100-4F67-BD5D-DA5CB37E8B45}
+		{9EB27D02-510D-45B5-BDE1-24D58BEB8A86} = {F080A2E3-3100-4F67-BD5D-DA5CB37E8B45}
+		{124D3829-5D87-46C5-81C8-47B04FF5797B} = {F080A2E3-3100-4F67-BD5D-DA5CB37E8B45}
+		{F77FE5C3-6D2F-4B50-A4D6-6134C2AD5954} = {F080A2E3-3100-4F67-BD5D-DA5CB37E8B45}
+	EndGlobalSection
+EndGlobal
