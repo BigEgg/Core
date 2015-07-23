@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{002F1AE2-64D0-40B3-9BE8-337C1C8944B1}</ProjectGuid>
+    <ProjectGuid>{970B8004-794A-45A9-89BF-1DA677F2FC68}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BigEgg.Framework.Applications.Test</RootNamespace>
-    <AssemblyName>BigEgg.Framework.Applications.Test</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <RootNamespace>BigEgg.Algorithm.Test</RootNamespace>
+    <AssemblyName>BigEgg.Algorithm.Test</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -16,7 +16,6 @@
     <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
     <IsCodedUITest>False</IsCodedUITest>
     <TestProjectType>UnitTest</TestProjectType>
-    <TargetFrameworkProfile />
     <SccProjectName>SAK</SccProjectName>
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
@@ -40,15 +39,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PresentationCore" />
-    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
-    <Reference Include="System.ComponentModel.Composition" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="System.Xaml" />
-    <Reference Include="System.Xml" />
-    <Reference Include="WindowsBase" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
@@ -63,44 +57,19 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Applications\ApplicationInfoTest.cs" />
-    <Compile Include="Applications\Commands\DelegateCommandTest.cs" />
-    <Compile Include="Applications\Commands\GenericDelegateCommandTest.cs" />
-    <Compile Include="Applications\ViewModels\DialogViewModelTest.cs" />
-    <Compile Include="Applications\ViewModels\ViewModelGenericTest.cs" />
-    <Compile Include="Applications\ViewModels\ViewModelTest.cs" />
-    <Compile Include="Applications\Views\TestHelperTest.cs" />
-    <Compile Include="Foundation\ModelTest.cs" />
-    <Compile Include="Foundation\ValidatableModelTest.cs" />
-    <Compile Include="Foundation\Validations\RequiredIfAttributeTest.cs" />
-    <Compile Include="Foundation\Validations\SameAsAttributeTest.cs" />
-    <Compile Include="Presentation\Converters\BoolToVisibilityConverterTest.cs" />
-    <Compile Include="Presentation\Converters\InvertBoolConverterTest.cs" />
-    <Compile Include="Presentation\Converters\StringFormatConverterTest.cs" />
-    <Compile Include="Presentation\Converters\ValidationErrorsConverterTest.cs" />
-    <Compile Include="Presentation\Validations\ValidationHelperTest.cs" />
+    <Compile Include="RandomArrayTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UnitTesting\AssertExceptionTest.cs" />
-    <Compile Include="UnitTesting\CanExecuteChangedEventTest.cs" />
-    <Compile Include="UnitTesting\IsRaiseErrorsChangedEventTest_Entity.cs" />
-    <Compile Include="UnitTesting\IsRaiseErrorsChangedEventTest_SpecifcProperty.cs" />
-    <Compile Include="UnitTesting\IsRaisePropertyChangedEventTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BigEgg.Framework.Applications\BigEgg.Framework.Applications.csproj">
-      <Project>{ac6ad921-828c-484f-b746-bacfec5cd856}</Project>
-      <Name>BigEgg.Framework.Applications</Name>
+    <ProjectReference Include="..\BigEgg.Algorithm\BigEgg.Algorithm.csproj">
+      <Project>{74169ec1-3d46-4bb4-989f-80b11a782308}</Project>
+      <Name>BigEgg.Algorithm</Name>
     </ProjectReference>
-    <ProjectReference Include="..\BigEgg.Framework\BigEgg.Framework.csproj">
-      <Project>{86969290-3921-4d3e-9168-0380d55b547a}</Project>
-      <Name>BigEgg.Framework</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\BigEgg.Framework.Applications.UnitTest\BigEgg.Framework.Applications.UnitTesting.csproj">
-      <Project>{9c8d53dd-fe21-4142-802b-25fce61cd2a5}</Project>
-      <Name>BigEgg.Framework.Applications.UnitTesting</Name>
+    <ProjectReference Include="..\BigEgg.UnitTesting\BigEgg.UnitTesting.csproj">
+      <Project>{20069404-1e1c-4f1a-87d7-3d5b111745c2}</Project>
+      <Name>BigEgg.UnitTesting</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

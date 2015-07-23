@@ -70,23 +70,23 @@ namespace BigEgg.Logging
 
 
         /// <summary>
-        /// Converts the log of this instance to its equaivalent string representation.
+        /// Converts the log of this instance to its equivalent string representation.
         /// </summary>
-        public string ToString()
+        public override string ToString()
         {
             return ToString(null, null);
         }
 
         /// <summary>
-        /// Converts the log of this instance to its equaivalent string representation
-        /// Using the specified format and culture-specific format infomation.
+        /// Converts the log of this instance to its equivalent string representation
+        /// Using the specified format and culture-specific format information.
         /// </summary>
         /// <param name="format">A custom log format string.</param>
-        /// <param name="formatProvider">An object that supplies culture-specific formatting infomation.</param>
+        /// <param name="formatProvider">An object that supplies culture-specific formatting information.</param>
         /// <returns>The string representation of the log.</returns>
         public string ToString(string format, IFormatProvider formatProvider)
         {
-            if (string.IsNullOrWhiteSpace(format)) 
+            if (string.IsNullOrWhiteSpace(format))
             {
                 if (this.Priority == Priority.None)
                 {
