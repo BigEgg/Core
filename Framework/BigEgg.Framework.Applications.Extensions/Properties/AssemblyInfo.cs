@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("BigEgg.Framework.Test")]
+[assembly: AssemblyTitle("BigEgg Application Framework Extensions")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("BigEgg")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("6eb11f48-d4b9-4492-83fa-c413728ac0a3")]
+[assembly: Guid("1e1d74d2-0a2f-4c10-a3e3-b9f1f6d8e3e1")]
 
 // Version information for an assembly consists of the following four values:
 //
