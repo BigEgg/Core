@@ -9,7 +9,7 @@ namespace BigEgg.Framework.Applications.Applications.ViewModels
     /// <summary>
     /// Abstract base class for a ViewModel implementation.
     /// </summary>
-    public abstract class ViewModel : Model
+    public abstract class ViewModel : ValidatableModel
     {
         private readonly IView view;
 
