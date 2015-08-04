@@ -1,4 +1,5 @@
 ﻿using BigEgg.Framework.Applications.Applications.Views;
+using BigEgg.Framework.Applications.Foundation;
 using System;
 using System.Threading;
 using System.Windows.Threading;
@@ -8,7 +9,7 @@ namespace BigEgg.Framework.Applications.Applications.ViewModels
     /// <summary>
     /// Abstract base class for a ViewModel implementation.
     /// </summary>
-    public abstract class ViewModel
+    public abstract class ViewModel : Model
     {
         private readonly IView view;
 
