@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>BigEgg.Core</id>
+        <version>2.0.2</version>
+        <title>BigEgg's Core</title>
+        <authors>BigEgg</authors>
+        <owners>BigEgg</owners>
+        <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://bigeggcore.codeplex.com/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>BigEgg's library for WPF application</description>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="PresentationCore" targetFramework=".NETFramework4.0" />
+            <frameworkAssembly assemblyName="System.ComponentModel.Composition" targetFramework=".NETFramework4.0" />
+            <frameworkAssembly assemblyName="System.ComponentModel.DataAnnotations" targetFramework=".NETFramework4.0" />
+            <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework4.0" />
+            <frameworkAssembly assemblyName="PresentationFramework" targetFramework=".NETFramework4.0" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="Framework\BigEgg.Framework.Applications.Extensions\bin\Release\BigEgg.Framework.Applications.Extensions.XML" target="content\BigEgg.Framework.Applications.Extensions.XML" />
+        <file src="Framework\BigEgg.Framework.Applications\bin\Release\BigEgg.Framework.Applications.XML" target="content\BigEgg.Framework.Applications.XML" />
+        <file src="Framework\BigEgg.Framework\bin\Release\BigEgg.Framework.XML" target="content\BigEgg.Framework.XML" />
+        <file src="Framework\BigEgg.Framework.Applications.Extensions\bin\Release\BigEgg.Framework.dll" target="lib\net46\BigEgg.Framework.dll" />
+        <file src="Framework\BigEgg.Framework.Applications.Extensions\bin\Release\BigEgg.Framework.Applications.Extensions.dll" target="lib\net46\BigEgg.Framework.Applications.Extensions.dll" />
+        <file src="Framework\BigEgg.Framework.Applications.Extensions\bin\Release\BigEgg.Framework.Applications.dll" target="lib\net46\BigEgg.Framework.Applications.dll" />
+    </files>
+</package>
