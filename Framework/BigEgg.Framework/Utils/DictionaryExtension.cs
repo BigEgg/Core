@@ -2,6 +2,9 @@
 
 namespace BigEgg.Framework.Utils
 {
+    /// <summary>
+    /// Extends the <see cref="System.Collections.IDictionary"/> interface with new methods.
+    /// </summary>
     public static class DictionaryExtension
     {
         /// <summary>

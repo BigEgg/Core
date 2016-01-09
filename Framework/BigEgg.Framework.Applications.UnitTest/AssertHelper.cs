@@ -7,6 +7,9 @@ using System.Windows.Input;
 
 namespace BigEgg.Framework.Applications.UnitTesting
 {
+    /// <summary>
+    /// The helper class for assert BigEgg.Framework.Application related function
+    /// </summary>
     public class AssertHelper
     {
         /// <summary>

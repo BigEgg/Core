@@ -13,8 +13,8 @@
         /// </summary>
         /// <param name="description">The description of the file type.</param>
         /// <param name="fileExtension">The file extension. This string has to start with a '.' point.</param>
-        /// <exception cref="ArgumentException">description is null or an empty string.</exception>
-        /// <exception cref="ArgumentException">fileExtension is null, an empty string or doesn't start with a '.' point character.</exception>
+        /// <exception cref="System.ArgumentException">description is null or an empty string.</exception>
+        /// <exception cref="System.ArgumentException">fileExtension is null, an empty string or doesn't start with a '.' point character.</exception>
         public FileType(string description, string fileExtension)
         {
             Preconditions.NotNullOrWhiteSpace(description, "The argument description must not be null or empty.");

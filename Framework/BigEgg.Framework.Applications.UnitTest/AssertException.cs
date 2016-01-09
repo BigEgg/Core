@@ -45,11 +45,14 @@ namespace BigEgg.Framework.Applications.UnitTesting
     }
 
     /// <summary>
-    /// Represents event sender and obserable not same assertion errors that occur at runtime.
+    /// Represents event sender and observable not same assertion errors that occur at runtime.
     /// </summary>
     [Serializable]
     public class SenderObservableNotSameException : AssertException
     {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="SenderObservableNotSameException"/> class.
+        /// </summary>
         public SenderObservableNotSameException()
             : base("The sender object of the event isn't the observable")
         { }
@@ -97,6 +100,9 @@ namespace BigEgg.Framework.Applications.UnitTesting
     [Serializable]
     public class SenderCommandNotSameException : AssertException
     {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="SenderCommandNotSameException"/> class.
+        /// </summary>
         public SenderCommandNotSameException()
             : base("The sender object of the event isn't the command")
         { }

@@ -92,7 +92,7 @@ namespace BigEgg.Framework.Applications.Extensions.Applications.Services.FileDia
         /// <returns>A FileDialogResult object which contains the filename entered by the user.</returns>
         /// <exception cref="System.ArgumentNullException">service must not be null.</exception>
         /// <exception cref="System.ArgumentNullException">fileTypes must not be null.</exception>
-        /// <exception cref="ArgumentException">fileTypes must contain at least one item.</exception>
+        /// <exception cref="System.ArgumentException">fileTypes must contain at least one item.</exception>
         public static FileDialogResult ShowSaveFileDialog(this IFileDialogService service, IEnumerable<FileType> fileTypes)
         {
             Preconditions.NotNull(service, "service");

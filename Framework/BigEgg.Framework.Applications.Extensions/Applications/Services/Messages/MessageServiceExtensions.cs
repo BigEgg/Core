@@ -10,7 +10,7 @@
         /// </summary>
         /// <param name="service">The message service.</param>
         /// <param name="message">The message.</param>
-        /// <exception cref="ArgumentNullException">The argument service must not be null.</exception>
+        /// <exception cref="System.ArgumentNullException">The argument service must not be null.</exception>
         public static void ShowMessage(this IMessageService service, string message)
         {
             Preconditions.NotNull(service);
@@ -23,7 +23,7 @@
         /// </summary>
         /// <param name="service">The message service.</param>
         /// <param name="message">The message.</param>
-        /// <exception cref="ArgumentNullException">The argument service must not be null.</exception>
+        /// <exception cref="System.ArgumentNullException">The argument service must not be null.</exception>
         public static void ShowWarning(this IMessageService service, string message)
         {
             Preconditions.NotNull(service);
@@ -36,7 +36,7 @@
         /// </summary>
         /// <param name="service">The message service.</param>
         /// <param name="message">The message.</param>
-        /// <exception cref="ArgumentNullException">The argument service must not be null.</exception>
+        /// <exception cref="System.ArgumentNullException">The argument service must not be null.</exception>
         public static void ShowError(this IMessageService service, string message)
         {
             Preconditions.NotNull(service);
@@ -50,7 +50,7 @@
         /// <param name="service">The message service.</param>
         /// <param name="message">The question.</param>
         /// <returns><c>true</c> for yes, <c>false</c> for no and <c>null</c> for cancel.</returns>
-        /// <exception cref="ArgumentNullException">The argument service must not be null.</exception>
+        /// <exception cref="System.ArgumentNullException">The argument service must not be null.</exception>
         public static bool? ShowQuestion(this IMessageService service, string message)
         {
             Preconditions.NotNull(service);
@@ -64,7 +64,7 @@
         /// <param name="service">The message service.</param>
         /// <param name="message">The question.</param>
         /// <returns><c>true</c> for yes and <c>false</c> for no.</returns>
-        /// <exception cref="ArgumentNullException">The argument service must not be null.</exception>
+        /// <exception cref="System.ArgumentNullException">The argument service must not be null.</exception>
         public static bool ShowYesNoQuestion(this IMessageService service, string message)
         {
             Preconditions.NotNull(service);

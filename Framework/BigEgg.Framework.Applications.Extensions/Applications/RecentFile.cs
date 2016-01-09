@@ -25,7 +25,7 @@ namespace BigEgg.Framework.Applications.Extensions.Applications
         /// Initializes a new instance of the <see cref="RecentFile"/> class.
         /// </summary>
         /// <param name="path">The file path.</param>
-        /// <exception cref="ArgumentException">The argument path must not be null or empty.</exception>
+        /// <exception cref="System.ArgumentException">The argument path must not be null or empty.</exception>
         public RecentFile(string path)
         {
             Preconditions.NotNullOrWhiteSpace(path, "The argument path must not be null or empty.");

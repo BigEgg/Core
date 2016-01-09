@@ -25,8 +25,8 @@ namespace BigEgg.Framework.Applications.Extensions.Presentation.Services
         /// <param name="defaultFileType">Default file type.</param>
         /// <param name="defaultFileName">Default filename. The directory name is used as initial directory when it is specified.</param>
         /// <returns>A FileDialogResult object which contains the filename selected by the user.</returns>
-        /// <exception cref="ArgumentNullException">fileTypes must not be null.</exception>
-        /// <exception cref="ArgumentException">fileTypes must contain at least one item.</exception>
+        /// <exception cref="System.ArgumentNullException">fileTypes must not be null.</exception>
+        /// <exception cref="System.ArgumentException">fileTypes must contain at least one item.</exception>
         public FileDialogResult ShowOpenFileDialog(object owner, IEnumerable<FileType> fileTypes, FileType defaultFileType, string defaultFileName)
         {
             Preconditions.NotNull(fileTypes);
@@ -44,8 +44,8 @@ namespace BigEgg.Framework.Applications.Extensions.Presentation.Services
         /// <param name="defaultFileType">Default file type.</param>
         /// <param name="defaultFileName">Default filename. The directory name is used as initial directory when it is specified.</param>
         /// <returns>A FileDialogResult object which contains the filename entered by the user.</returns>
-        /// <exception cref="ArgumentNullException">fileTypes must not be null.</exception>
-        /// <exception cref="ArgumentException">fileTypes must contain at least one item.</exception>
+        /// <exception cref="System.ArgumentNullException">fileTypes must not be null.</exception>
+        /// <exception cref="System.ArgumentException">fileTypes must contain at least one item.</exception>
         public FileDialogResult ShowSaveFileDialog(object owner, IEnumerable<FileType> fileTypes, FileType defaultFileType, string defaultFileName)
         {
             Preconditions.NotNull(fileTypes);

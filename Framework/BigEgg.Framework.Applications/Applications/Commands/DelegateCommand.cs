@@ -3,7 +3,7 @@
 namespace BigEgg.Framework.Applications.Applications.Commands
 {
     /// <summary>
-    /// Provides an <see cref="ICommand"/> implementation which relays the <see cref="Execute"/> and <see cref="CanExecute"/> 
+    /// Provides an <see cref="System.Windows.Input.ICommand"/> implementation which relays the <see cref="Execute"/> and <see cref="CanExecute"/> 
     /// method to the specified delegates.
     /// </summary>
     /// <seealso cref="DelegateCommandBase"/>

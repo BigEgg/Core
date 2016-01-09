@@ -8,7 +8,7 @@ namespace BigEgg.Framework
     public class Preconditions
     {
         /// <summary>
-        /// Throw an <see cref="ArgumentNullException"> if the object is null.
+        /// Throw an <see cref="ArgumentNullException"/> if the object is null.
         /// </summary>
         /// <param name="obj">The object which need to check.</param>
         /// <param name="paramName">The name of the parameter that caused the exception.</param>
@@ -21,7 +21,7 @@ namespace BigEgg.Framework
         }
 
         /// <summary>
-        /// Throw an <see cref="ArgumentNullException"> if a specified string is null, 
+        /// Throw an <see cref="ArgumentNullException"/> if a specified string is null, 
         /// empty, or consists only of white-space characters.
         /// </summary>
         /// <param name="value">The string to test.</param>
@@ -35,7 +35,7 @@ namespace BigEgg.Framework
         }
 
         /// <summary>
-        /// Throw an <see cref="ArgumentNullException"> if the condition is false.
+        /// Throw an <see cref="ArgumentNullException"/> if the condition is false.
         /// </summary>
         /// <param name="condition">The check condition.</param>
         /// <param name="message">The error message that explains the reason for the exception.</param>
