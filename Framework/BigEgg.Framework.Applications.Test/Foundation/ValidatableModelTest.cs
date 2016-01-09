@@ -1,6 +1,5 @@
 ﻿using BigEgg.Framework.Applications.Foundation;
 using BigEgg.Framework.Applications.UnitTesting;
-using BigEgg.Framework.Utils;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
@@ -125,7 +124,7 @@ namespace BigEgg.Framework.Applications.Test.Foundation
             Person person = new Person() { Name = "Bill" };
             person.Validate();
 
-            AssertHelper.IsRaiseBothErrorChangedEventAndPropertyChangedEvent(person, x => x.Email, () => person.Email = 'A'.Build(65));
+            AssertHelper.IsRaiseBothErrorChangedEventAndPropertyChangedEvent(person, x => x.Email, () => person.Email = new string('A', 65));
             Assert.IsTrue(person.HasErrors);
             Assert.AreEqual(2, person.GetErrors().Count());
             Assert.AreEqual(2, person.GetErrors("Email").Count());
@@ -195,7 +194,7 @@ namespace BigEgg.Framework.Applications.Test.Foundation
         [Serializable]
         private class Person : ValidatableModel
         {
-            public const string NameMadatoryErrorMessage = "The Name field is madatory.";
+            public const string NameMadatoryErrorMessage = "The Name field is mandatory.";
             public const string EmailInvalidErrorMessage = "The Email field is not a valid e-mail address.";
             public const string EmailLengthErrorMessage = "The field Email must be a string with a maximum length of 64.";
             private string name;
