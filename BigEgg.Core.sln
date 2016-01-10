@@ -5,6 +5,7 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2CF4F311-2C16-45C9-9509-6EC775006AB8}"
 	ProjectSection(SolutionItems) = preProject
+		BigEgg.Core.Extension.nuspec = BigEgg.Core.Extension.nuspec
 		BigEgg.Core.nuspec = BigEgg.Core.nuspec
 		BigEgg.Core.UnitTesting.nuspec = BigEgg.Core.UnitTesting.nuspec
 	EndProjectSection
