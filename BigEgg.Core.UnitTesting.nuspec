@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>BigEgg.Core.UnitTesting</id>
-        <version>2.0.2</version>
+        <version>2.0.2.1</version>
         <title>BigEgg's Core Unit Testing Extension</title>
         <authors>BigEgg</authors>
         <owners>BigEgg</owners>
@@ -15,7 +15,7 @@
         </frameworkAssemblies>
     </metadata>
     <files>
-        <file src="Framework\BigEgg.Framework.Applications.UnitTest\bin\Release\BigEgg.Framework.Applications.UnitTesting.XML" target="content\BigEgg.Framework.Applications.UnitTesting.XML" />
+        <file src="Framework\BigEgg.Framework.Applications.UnitTest\bin\Release\BigEgg.Framework.Applications.UnitTesting.XML" target="lib\net46\BigEgg.Framework.Applications.UnitTesting.XML" />
         <file src="Framework\BigEgg.Framework.Applications.UnitTest\bin\Release\BigEgg.Framework.Applications.dll" target="lib\net46\BigEgg.Framework.Applications.dll" />
         <file src="Framework\BigEgg.Framework.Applications.UnitTest\bin\Release\BigEgg.Framework.Applications.UnitTesting.dll" target="lib\net46\BigEgg.Framework.Applications.UnitTesting.dll" />
         <file src="Framework\BigEgg.Framework.Applications.UnitTest\bin\Release\BigEgg.Framework.dll" target="lib\net46\BigEgg.Framework.dll" />
